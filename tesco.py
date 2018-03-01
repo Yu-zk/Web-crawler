@@ -61,6 +61,7 @@ def printGoodList(ilt, n,f):
             f.write('\n')
 
 def main():
+    #文件的输出
     f = open("1.txt", "w")
     goods = input("Type name : ")
     n = int(input("Type number : "))
